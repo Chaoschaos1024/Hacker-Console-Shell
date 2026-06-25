@@ -9,6 +9,10 @@
 -->
 # Hacker Console Open-Source Project
 
+## Update Notice
+
+June 25, 2026: The enclosure has been updated to accommodate the new power module; the new design offers higher integration and a reduced thickness of 31mm.
+
 ## Project Overview
 **Hacker Console** is a handheld terminal designed by myself, based on the Raspberry Pi B series as the mainboard.  
 If you are interested in my design, please search for **"Hacker Console"** on **Bilibili**.
