@@ -28,7 +28,7 @@
 **Hacker Console** 是一款由本人设计的手持终端，采用树莓派 B 系列作为主板。  
 如果你对我的设计感兴趣，请在 **Bilibili** 上搜索 **"Hacker Console"**。
 
-![Hacker Console 正面视图](image/front.jpg)
+![Hacker Console 正面视图](image/front_new.jpg)
 
 作为一款拓展性极强的手持终端，它具有以下特性：
 - **免驱动的 HDMI 屏幕**，支持触摸功能
@@ -42,12 +42,12 @@
 <div align="center">
 <table>
 <tr>
-<td align="center"><img src="image/right.jpg" alt="右侧视图" width="90%"><br>右侧视图</td>
-<td align="center"><img src="image/left.jpg" alt="左侧视图" width="90%"><br>左侧视图</td>
+<td align="center"><img src="image/right_new.jpg" alt="右侧视图" width="90%"><br>右侧视图</td>
+<td align="center"><img src="image/left_new.jpg" alt="左侧视图" width="90%"><br>左侧视图</td>
 </tr>
 <tr>
-<td align="center"><img src="image/up.jpg" alt="顶部视图" width="90%"><br>顶部视图</td>
-<td align="center"><img src="image/inside.jpg" alt="内部结构" width="90%"><br>内部结构</td>
+<td align="center"><img src="image/up_new.jpg" alt="顶部视图" width="90%"><br>顶部视图</td>
+<td align="center"><img src="image/inside_new.jpg" alt="内部结构" width="90%"><br>内部结构</td>
 </tr>
 </table>
 </div>
@@ -57,8 +57,9 @@
 ### 📌 版本对应关系
 | 您的设备版本 | 推荐结构件文件 | 适用说明 |
 |--------------|----------------|----------|
-| **老版本**（初版键盘 + 初版主板） | `HackerConsle结构件-适用于初版键盘和初版主板.3mf` | 兼容最早的硬件设计 |
-| **新版本**（改进版键盘 + 改进版主板） | `HackerConsole结构件-适用于改进后的键盘以及改进后的主板.3mf` | 包含最新的优化设计 |
+| **初代版本**（初版键盘 + 初版主板） | `HackerConsle结构件-适用于初版键盘和初版主板.3mf` | 兼容最早的硬件设计 |
+| **二代版本**（改进版键盘 + 改进版主板） | `HackerConsole结构件-适用于改进后的键盘以及改进后的主板.3mf` | 兼容新版键盘，新主板  |
+| **三代最新代版本**（改进版电源板 + 改进版电池板） | `hackerconsole外壳，须搭配新主板以及新键盘以及新电源板使用.3mf` | 在兼容新键盘和新主板的前提下，兼容新的电源板和电池板 |
 
 ### 🔧 通用物料说明
 > **重要提示**：两个版本使用**相同的通用物料**，包括：
@@ -71,16 +72,21 @@
 
 ### 🛠️ 如何选择正确版本
 #### 1. 识别您的硬件版本
-- **老版本特征**：键盘有突起的黑色摇杆，扬声器模块为单独的pcb
-- **新版本特征**：小的金属摇杆，新主板扬声器为带金属触点的器件，没有接线
+- **一代版本特征**：键盘有突起的黑色摇杆，扬声器模块为单独的pcb
+- **二代版本特征**：键盘有小的金属摇杆，新主板扬声器为带金属触点的器件，没有接线
+- **三代版本特征**：二代基础上，电源板有散热片，电池有电量指示灯
 
 #### 2. 下载对应文件
 ```markdown
-✅ **如果您是老版本用户：**
+✅ **如果您是一代版本用户：**
    下载 → [HackerConsle结构件-适用于初版键盘和初版主板.3mf]
 
-✅ **如果您是新版本用户：**
+✅ **如果您是二代版本用户：**
    下载 → [HackerConsole结构件-适用于改进后的键盘以及改进后的主板.3mf]
+
+✅ **如果您是三代版本用户：**
+   下载 → [hackerconsole外壳，须搭配新主板以及新键盘以及新电源板使用.3mf]
+```
 ```
 
 #### 3. 打印前检查
